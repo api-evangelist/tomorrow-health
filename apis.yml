@@ -1,8 +1,24 @@
 aid: tomorrow-health
 name: Tomorrow Health
-description: Tomorrow Health is a company surfaced as a portfolio company of a16z, bond-capital, obvious-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Tomorrow Health is an AI-powered platform for home-based care that connects providers, payors, and
+  durable medical equipment (DMEPOS) suppliers, using intelligent automation to simplify ordering,
+  routing, and reviewing home healthcare services. Its Horizon Suite includes AI Ordering, AI Fax
+  Intake, and THEA (Tomorrow Health Expert Assistant). Headquartered in New York and backed by a16z,
+  Bond Capital, and Obvious Ventures. No public developer API, SDK, or API documentation is currently
+  published; the customer application is a private authenticated web app.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/249120/tomorrow_health-favicon-64px.png
 url: https://raw.githubusercontent.com/api-evangelist/tomorrow-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Healthcare
+- Home Health
+- DMEPOS
+- Durable Medical Equipment
+- Health Tech
+- Care Coordination
+- Health Insurance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +47,34 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/tomorrow-health-domain-security.yml
 - type: Website
   url: https://tomorrowhealth.com
+- type: StatusPage
+  url: https://status.tomorrowhealth.com
+- type: Lifecycle
+  url: lifecycle/tomorrow-health-lifecycle.yml
+- type: LLMsTxt
+  url: llms/tomorrow-health-llms.txt
+- type: GitHubOrganization
+  url: https://github.com/tomorrow-health
+- type: Blog
+  url: https://resources.tomorrowhealth.com/resource-center
+- type: Support
+  url: https://resources.tomorrowhealth.com/support
+- type: SignUp
+  url: https://resources.tomorrowhealth.com/sign-up
+- type: Login
+  url: https://app.tomorrowhealth.com/
+- type: PrivacyPolicy
+  url: https://9307612.fs1.hubspotusercontent-na1.net/hubfs/9307612/Website%20Files/Privacy%20Policy.pdf
+- type: TermsOfService
+  url: https://9307612.fs1.hubspotusercontent-na1.net/hubfs/9307612/Website%20Files/Terms%20of%20Service%20.pdf
+- type: Careers
+  url: https://home.tomorrowhealth.com/careers
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

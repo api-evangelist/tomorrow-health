@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: searched
+source: https://status.tomorrowhealth.com
+name: Tomorrow Health Lifecycle
+status_page:
+  url: https://status.tomorrowhealth.com
+  provider: Atlassian Statuspage
+  api: https://status.tomorrowhealth.com/api/v2/status.json
+  current_indicator: none
+  current_description: All Systems Operational
+  probed: '2026-07-21'
+versioning_policy:
+  found: false
+  note: No public API versioning policy published; Tomorrow Health exposes no public developer API surface.
+deprecation_policy:
+  found: false
+  note: No public deprecation/sunset policy (RFC 8594) published.
+sla:
+  found: false
+notes: >-
+  Tomorrow Health publishes an operational status page (Atlassian Statuspage) but
+  no public API, developer portal, versioning policy, or deprecation policy was
+  found. The platform (app.tomorrowhealth.com) is a private authenticated SPA.
