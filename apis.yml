@@ -7,6 +7,17 @@ description: >-
   Intake, and THEA (Tomorrow Health Expert Assistant). Headquartered in New York and backed by a16z,
   Bond Capital, and Obvious Ventures. No public developer API, SDK, or API documentation is currently
   published; the customer application is a private authenticated web app.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
